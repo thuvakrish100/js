@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+<button onclick="myFunction()">try it</button>
+<p id="mark"></p>
+  <script>
+  function myFunction() {
+var print;
+var marks=window.prompt("jjjj");
+
+if (marks>=75){
+print="A";
+}
+
+else if (marks>=65){
+print= "B";
+}
+
+else if (marks>=55){
+print= "C";
+}
+
+
+else if (marks>=45){
+print= "S";
+}
+
+else{
+print= "FAIL";
+}
+
+
+
+document.getElementById("mark").innerHTML= print;
+}
+
+
+</script>
+
+</body>
+</html>
