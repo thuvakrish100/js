@@ -1,0 +1,113 @@
+<!--question 01-->
+<!--JS Arrays Exercises - Google Docs-->
+<html>
+<script>
+var array=[name1,name]
+var array= newAravy ("name1","name2")
+</script>
+</html>
+
+
+
+
+
+<!--question02-->
+<!--2. Write a Javascript Function which returns the
+1.1) Max value in an array passed as argument.
+1.2) Min value in an array
+-->
+<html><!--question A-->
+<p id="demo"></p>
+<script>
+document.getElementById('demo').innerHTML= Math.max(2,4,1,10,7);
+</script>
+</html>
+
+<html><!--question B-->
+<p id="demo1"></p>
+<script>
+document.getElementById('demo1').innerHTML= Math.min(2,4,1,10,7);
+</script>
+</html>
+
+
+<!--question 3-->
+<!--3. Add 5 new fruits in the middle of the following array.
+var fruits = ["Apple","Banana"];
+3.1) Get the fruit name in index 3?
+3.2) Get the length of the array ?
+3.3) Get the reverse order of elements of fruits?
+-->
+<html>
+<p id="demo3"></p>
+<p id="demo3.2"</p>
+<p id="demo3.3"</p>
+<script>
+var fruits = ["Apple","Mango","grapes","lemon","banana"];
+document.getElementById('demo3').innerHTML= fruits[3];
+document.getElementById('demo3.2').innerHTML= fruits.length;
+fruits.reverse()
+document.getElementById('demo3.3').innerHTML= fruits;
+</script>
+</html>
+
+
+<!--question 4-->
+<!--4.Create an array called num with following numbers 4,1,8,3,9,12
+ 	4.1) Print the sorted array
+-->
+
+<html>
+<p id="demo4"></p>
+<script>
+var num = [4,1,8,3,9,12];
+num.sort()
+document.getElementById('demo4').innerHTML= num;
+</script>
+</html>
+
+
+
+
+
+<!--question 5-->
+<!--5.var foods = ["rice", "pizza", "sandwich", "rolls"];
+	5.1)Removes the last element ("rolls") from foods
+	5.2)Adds a new element ("cake") to foods
+	5.3)Removes the first element "rice" from foods
+-->
+
+<html>
+<p id="demo5"></p>
+<p id="demo5.1"></p>
+<p id="demo5.2"></p>
+<p id="demo5.3"></p>
+<script>
+var foods = ["rice","pizza","sandwich","rolls",];
+
+document.getElementById('demo5').innerHTML= foods;
+foods.pop();
+document.getElementById('demo5.1').innerHTML= foods;
+foods.push("cake");
+document.getElementById('demo5.2').innerHTML= foods;
+foods.shift()
+document.getElementById('demo5.3').innerHTML= foods;
+</script>
+</html>
+
+
+
+<html>
+<p id="demo6"></p>
+<p id="demo6.1"></p>
+<p id="demo6.2"></p>
+<script>
+var palam = ["Pineapple","Lemon",];
+document.getElementById('demo6').innerHTML= palam;
+palam.unshift("apple")
+document.getElementById('demo6.1').innerHTML= palam;
+palam.push("orange","peach")
+document.getElementById('demo6.2').innerHTML= palam;
+
+</script>
+</html>
